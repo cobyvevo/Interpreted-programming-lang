@@ -1,0 +1,10 @@
+int a = 0;
+
+void function change() {
+	a = a + 1;
+}
+
+while (a < 5) {
+	change();
+	print(a);
+}
